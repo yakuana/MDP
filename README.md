@@ -36,7 +36,9 @@ policy.
  | 0.7 | 10 |  
  | 1.0 | 41 | 
 
-   Explaination: Excluding the outlier of a discount factor of 0.7, the trend reflects an increase in discount factor leads to an increase in the number of iterations neccessary to solve the problem. The higher the discount factor, the more iterations neccessary for the following comparison to be true and halt the Markov Decision Process: utilityChange <= EPSILON * (1 - DISCOUNT_FACTOR) / DISCOUNT_FACTOR 
+   Explaination: 
+   
+   Excluding the outlier of a discount factor of 0.7, the trend reflects an increase in discount factor leads to an increase in the number of iterations neccessary to solve the problem. The higher the discount factor, the more iterations neccessary for the following comparison to be true and halt the Markov Decision Process: utilityChange <= EPSILON * (1 - DISCOUNT_FACTOR) / DISCOUNT_FACTOR 
 
 #### The Step Cost
 
