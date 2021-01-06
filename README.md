@@ -36,7 +36,7 @@ policy.
  | 0.7 | 10 |  
  | 1.0 | 41 | 
 
-   Explanation: 
+   **Explanation: 
    
    Excluding the outlier of a discount factor of 0.7, the trend reflects an increase in discount factor leads to an increase in the number of iterations neccessary to solve the problem. The higher the discount factor, the more iterations neccessary for the following comparison to be true and halt the Markov Decision Process: utilityChange <= EPSILON * (1 - DISCOUNT_FACTOR) / DISCOUNT_FACTOR 
 
@@ -49,7 +49,7 @@ policy.
  | 0.0 | 138 | 
  | 0.04 | 895 | 
 
-   Explanation: 
+   **Explanation: 
    
    -10 is significantly greater than the positive and negative rewards we have provided. As a result, the agent actively seeks a terminal state, even if the terminal state provides a negative reward.
     
@@ -68,7 +68,7 @@ policy.
  | -10.0 | 140 |   
  | -100.0 | 140 | 
 
-   Explanation:
+   **Explanation:
     
    -100.0 and -10.0 negative rewards have equivalent impacts on policy. In the case for both. of these large negative numbers, the number of iterations is extremely high. This is the result of the agent's attempts to avoid having a negative reward upon termination. On the otherhand, for the -1.0 negaritve reward which is relatively more positive than -10.0. and -100.0, the number of iterations is much less and it is evident that the agent was able to reach the solution. state in a reasonable amount of time. 
         
@@ -81,6 +81,6 @@ policy.
  | 10.0 | 136 |   
  | 100.0 | 165 | 
 
-   Explanation:
+   **Explanation:
    
    Our results show that as the positive reward increases, the number of iterations needed to reach the problem's solution also increases. Similar to the negative reward, increasing the positive reward leads to the agent increasingly avoiding negative rewards and therefore taking a much longer time to terminate the process. 
