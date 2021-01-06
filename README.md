@@ -36,7 +36,7 @@ policy.
  | 0.7 | 10 |  
  | 1.0 | 41 | 
 
-    Explaination: 
+    Explaination: Excluding the outlier of a discount factor of 0.7, the trend reflects an increase in discount factor leads to an increase in the number of iterations neccessary to solve the problem. The higher the discount factor, the more iterations neccessary for the following comparison to be true and halt the Markov Decision Process: utilityChange <= EPSILON * (1 - DISCOUNT_FACTOR) / DISCOUNT_FACTOR 
 
 #### The Step Cost
 
@@ -48,6 +48,13 @@ policy.
  | 0.04 | 895 | 
 
     Explaination: 
+    -10 is significantly greater than the positive and negative rewards we have provided. As a result, the agent actively seeks a terminal state, even if the terminal state provides a negative reward.
+    
+    -0.04 is a reasonable step cost. Given this step cost, the agent will reach a positive reward in a fair amount of time given the low risk of taking any step. 
+    
+    No step cost results in the agent having 0 probability of landing in the negative reward terminal state and eliminates some relatively shorter paths to the positive reward as reflected in the large number of iterations required to reach the solution.
+    
+    0.04 is the most positive step cost in the list. Given this step cost, the agent will avoid both the positive and negative terminal states in order to increase its total amount of rewards before reaching the solution. 
 
 
 #### The Negative Reward
