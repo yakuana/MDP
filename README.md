@@ -1,5 +1,5 @@
 # MDP
-Markov Decision Process
+Markov Decision Process - Value Iteration Exploration 
 
 CS 2400 FALL 2020
 
