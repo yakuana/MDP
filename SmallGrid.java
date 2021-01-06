@@ -96,6 +96,7 @@ public class SmallGrid {
                 // update utility and policy arrays for the state  
                 utility[state] = currentUtility; 
                 policy[state] = bestPolicy; 
+                
             }
 
             printStatus(iteration, utility, policy);
@@ -220,7 +221,7 @@ public class SmallGrid {
         // BEFORE a transition
         
         for(int s = 1 ; s <= NUM_STATES ; ++s) {
-            // includes step cost 
+            // step cost 
             R[s] = NON_TERMINAL_REWARD;
         }
         
