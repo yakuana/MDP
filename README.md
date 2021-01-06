@@ -26,7 +26,8 @@ the values used in the previous experiment. For each parameter, describe its imp
 on the policy. Note that different values of a given parameter may produce the same
 policy. 
 
-    A. The Discount Factor
+
+#### The Discount Factor
 
  | Discount Factor | Number of Iterations |
  | -- | -- |
@@ -35,8 +36,9 @@ policy.
  | 0.7 | 10 |  
  | 1.0 | 41 | 
 
+    Explaination: 
 
-    B. The Step Cost
+#### The Step Cost
 
  | Step Cost | Number of Iterations |
  | -- | -- |
@@ -45,9 +47,10 @@ policy.
  | 0.0 | 138 | 
  | 0.04 | 895 | 
 
-        Explaination: 
+    Explaination: 
 
-    C. The Negative Reward
+
+#### The Negative Reward
 
  | Negative Reward | Number of Iterations |
  | -- | -- |
@@ -55,9 +58,10 @@ policy.
  | -10.0 | 140 |   
  | -100.0 | 140 | 
 
-        Explaination:
+    Explaination:
+        
 
-    D. The Positive Reward
+#### The Positive Reward
 
  | Positive Reward | Number of Iterations |
  | -- | -- |
@@ -65,4 +69,4 @@ policy.
  | 10.0 | 136 |   
  | 100.0 | 165 | 
 
-        Explaination:
+    Explaination:
