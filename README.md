@@ -2,7 +2,9 @@
 Markov Decision Process
 
 CS 2400 FALL 2020
+
 ASSIGNMENT 5: MARKOV DECISION PROCESSES
+
 Kayla Stuhlmann and Ya'kuana Davis 
 
 ## Experiment Results: 
@@ -26,42 +28,41 @@ policy.
 
     A. The Discount Factor
 
-        | Discount Factor | Number of Iterations |
-        | -- | -- |
-        | 0.1 | 5 |
-        | 0.4 | 12 |   
-        | 0.7 | 10 |  
-        | 1.0 | 41 |  
+ | Discount Factor | Number of Iterations |
+ | -- | -- |
+ | 0.1 | 5 |
+ | 0.4 | 12 |   
+ | 0.7 | 10 |  
+ | 1.0 | 41 | 
 
-        ** Explaination: **
 
     B. The Step Cost
 
-        | Step Cost | Number of Iterations |
-        | -- | -- |
-        | -10.0 | 23 |
-        | -0.04 | 22 |   
-        | 0.0 | 138 | 
-        | 0.04 | 895 | 
+ | Step Cost | Number of Iterations |
+ | -- | -- |
+ | -10.0 | 23 |
+ | -0.04 | 22 |       
+ | 0.0 | 138 | 
+ | 0.04 | 895 | 
 
         Explaination: 
 
     C. The Negative Reward
 
-        | Negative Reward | Number of Iterations |
-        | -- | -- |
-        | -1.0 | 22 |
-        | -10.0 | 140 |   
-        | -100.0 | 140 | 
+ | Negative Reward | Number of Iterations |
+ | -- | -- |
+ | -1.0 | 22 |
+ | -10.0 | 140 |   
+ | -100.0 | 140 | 
 
-        ** Explaination: **
+        Explaination:
 
     D. The Positive Reward
 
-        | Positive Reward | Number of Iterations |
-        | -- | -- |
-        | 1.0 | 22 |
-        | 10.0 | 136 |   
-        | 100.0 | 165 | 
+ | Positive Reward | Number of Iterations |
+ | -- | -- |
+ | 1.0 | 22 |
+ | 10.0 | 136 |   
+ | 100.0 | 165 | 
 
-        ** Explaination: **
+        Explaination:
