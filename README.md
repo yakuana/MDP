@@ -70,7 +70,7 @@ policy.
 
    **Explanation:**
     
-   -100.0 and -10.0 negative rewards have equivalent impacts on policy. In the case for both. of these large negative numbers, the number of iterations is extremely high. This is the result of the agent's attempts to avoid having a negative reward upon termination. On the otherhand, for the -1.0 negaritve reward which is relatively more positive than -10.0. and -100.0, the number of iterations is much less and it is evident that the agent was able to reach the solution. state in a reasonable amount of time. 
+   -100.0 and -10.0 negative rewards have equivalent impacts on policy. In the case for both of these large negative numbers, the number of iterations is extremely high. This is the result of the agent's attempts to avoid having a negative reward upon termination. On the otherhand, for the -1.0 negaritve reward which is relatively more positive than -10.0. and -100.0, the number of iterations is much less and it is evident that the agent was able to reach the solution state in a reasonable amount of time. 
         
 
 ### The Positive Reward
